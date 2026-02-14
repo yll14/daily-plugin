@@ -1,0 +1,47 @@
+- group: 热搜插件帮助
+  list:
+    - icon: help
+      title: "(|)内文字说明其中一个即可"
+      desc: "例:(a|b)则a也可以b也可以，字母不区分大小写"
+    - icon: help
+      title: "()？内文字说明可以要也可以不用"
+      desc: "例:a(b)?则可以ab也可以a"
+    - icon: zhihu
+      title: "#(zhihu|知乎)(今日)?(热搜|热榜)"
+      desc: "知乎热榜"
+    - icon: weread
+      title: "#(weread|微信读书)(今日)?(热搜|热榜)"
+      desc: "微信读书热榜"
+    - icon: weibo
+      title: "#(weibo|微博)(今日)?(热搜|热榜)"
+      desc: "微博热搜"
+    - icon: toutiao
+      title: "#(toutiao|头条|今日头条)(今日)?(热搜|热榜)"
+      desc: "今日头条热榜"
+    - icon: tieba
+      title: "#(tieba|贴吧|百度贴吧)(今日)?(热搜|热榜)"
+      desc: "百度贴吧热榜"
+    - icon: thepaper
+      title: "#(thepaper|澎湃|澎湃新闻)(今日)?(热搜|热榜)"
+      desc: "澎湃新闻热榜"
+    - icon: sspai
+      title: "#(sspai|少数派)(今日)?(热搜|热榜)"
+      desc: "少数派热榜"
+    - icon: qq-news
+      title: "#(qq-news|腾讯新闻|qqnews)(今日)?(热搜|热榜)"
+      desc: "腾讯新闻热榜"
+    - icon: ngabbs
+      title: "#(ngabbs|nga|NGA)(今日)?(热搜|热榜)"
+      desc: "NGA热榜"
+    - icon: netease-news
+      title: "#(netease-news|网易新闻|netease)(今日)?(热搜|热榜)"
+      desc: "网易新闻热榜"
+    - icon: kuaishou
+      title: "#(kuaishou|快手)(今日)?(热搜|热榜)"
+      desc: "快手热榜"
+    - icon: juejin
+      title: "#(juejin|掘金)(今日)?(热搜|热榜)"
+      desc: "掘金热榜"
+    - icon: jianshu
+      title: "#(jianshu|简书)(今日)?(热搜|热榜)"
+      desc: "简书热榜"
