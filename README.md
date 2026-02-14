@@ -31,7 +31,6 @@ git clone --depth=1 https://ghproxy.net/https://github.com/yll14/daily-plugin.gi
 ```
 ### 方式二:手动下载插件 (不推荐：后续无法直接更新，需手动再次下载)
 下载仓库解压zip文件将daily-plugin-master放入Yunzai/Miao-Yunzai的/plugins目录下重命名去掉后面的<u>-master</u>
-<img src='https://gitee.com/yll14/plugin-framework/raw/master/resources/img/cf114401-ee20-455f-b980-c21bc4cb0df9.png'  alt='Download-daily-plugin.png'></img>
 </div>
 
 ### 安装依赖 一定要安装依赖!!!
