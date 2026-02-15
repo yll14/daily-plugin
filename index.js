@@ -9,42 +9,46 @@ import chalk from "chalk";
 
 const startTime = Date.now();
 let initMsg = await Init.init();
-logger.info(chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`) + 
-chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`) + 
-chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`) + 
-chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`));
-logger.info(chalk.rgb(255, 107, 107)(PluginName_zh[0]) + 
-chalk.rgb(255, 165, 107)(PluginName_zh[1]) + 
-chalk.rgb(255, 231, 107)(PluginName_zh[2]) + 
-chalk.rgb(107, 255, 150)(PluginName_zh[3]) + 
-chalk.rgb(107, 200, 255)(`载`) + 
-chalk.rgb(180, 107, 255)(`入`) + 
-chalk.rgb(255, 107, 200)(`中`) + 
-chalk.rgb(255, 107, 107)(`！`));
+logger.info(
+  chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`) +
+    chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`) +
+    chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`) +
+    chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`),
+);
+logger.info(
+  chalk.rgb(255, 107, 107)(PluginName_zh[0]) +
+    chalk.rgb(255, 165, 107)(PluginName_zh[1]) +
+    chalk.rgb(255, 231, 107)(PluginName_zh[2]) +
+    chalk.rgb(107, 255, 150)(PluginName_zh[3]) +
+    chalk.rgb(107, 200, 255)(`载`) +
+    chalk.rgb(180, 107, 255)(`入`) +
+    chalk.rgb(255, 107, 200)(`中`) +
+    chalk.rgb(255, 107, 107)(`！`),
+);
 
 if (!initMsg.boolean) {
   throw new Error(`${PluginName_en}载入失败`);
@@ -88,109 +92,123 @@ for (let i in files) {
 const endTime = Date.now();
 const elapsedTime = endTime - startTime;
 
-logger.info(chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`) + 
-chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`) + 
-chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`) + 
-chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`));
-logger.info(chalk.rgb(255, 107, 107)(PluginName_zh[0]) + 
-chalk.rgb(255, 165, 107)(PluginName_zh[1]) + 
-chalk.rgb(255, 231, 107)(PluginName_zh[2]) + 
-chalk.rgb(107, 255, 150)(PluginName_zh[3]) + 
-chalk.rgb(107, 200, 255)(`载`) + 
-chalk.rgb(180, 107, 255)(`入`) + 
-chalk.rgb(255, 107, 200)(`完`) + 
-chalk.rgb(255, 107, 107)(`成`));
-logger.info(chalk.rgb(255, 107, 107)(`成`) + 
-chalk.rgb(255, 165, 107)(`功`) + 
-chalk.rgb(255, 231, 107)(`加`) + 
-chalk.rgb(107, 255, 150)(`载`) + 
-chalk.rgb(107, 200, 255)(`：`) + 
-chalk.rgb(180, 107, 255)(` `) + 
-chalk.rgb(255, 107, 200)(successCount) + 
-chalk.rgb(255, 107, 107)(` `) + 
-chalk.rgb(255, 165, 107)(`个`));
-logger.info(chalk.rgb(255, 107, 107)(`加`) + 
-chalk.rgb(255, 165, 107)(`载`) + 
-chalk.rgb(255, 231, 107)(`失`) + 
-chalk.rgb(107, 255, 150)(`败`) + 
-chalk.rgb(107, 200, 255)(`：`) + 
-chalk.rgb(180, 107, 255)(` `) + 
-chalk.rgb(255, 107, 200)(failureCount) + 
-chalk.rgb(255, 107, 107)(` `) + 
-chalk.rgb(255, 165, 107)(`个`));
-logger.info(chalk.rgb(255, 107, 107)(`总`) + 
-chalk.rgb(255, 165, 107)(`耗`) + 
-chalk.rgb(255, 231, 107)(`时`) + 
-chalk.rgb(107, 255, 150)(`：`) + 
-chalk.rgb(107, 200, 255)(` `) + 
-chalk.rgb(180, 107, 255)(elapsedTime) + 
-chalk.rgb(255, 107, 200)(` `) + 
-chalk.rgb(255, 107, 107)(`毫`) + 
-chalk.rgb(255, 165, 107)(`秒`));
-logger.info(chalk.rgb(255, 107, 107)(`C`) + 
-chalk.rgb(255, 165, 107)(`r`) + 
-chalk.rgb(255, 231, 107)(`e`) + 
-chalk.rgb(107, 255, 150)(`a`) + 
-chalk.rgb(107, 200, 255)(`t`) + 
-chalk.rgb(180, 107, 255)(`e`) + 
-chalk.rgb(255, 107, 200)(`d`) + 
-chalk.rgb(255, 107, 107)(` `) + 
-chalk.rgb(255, 165, 107)(`B`) + 
-chalk.rgb(255, 231, 107)(`y`) + 
-chalk.rgb(107, 255, 150)(` `) + 
-chalk.rgb(255, 107, 107)(global.XINGLUO.PluginAuthor[0]) + 
-chalk.rgb(255, 165, 107)(global.XINGLUO.PluginAuthor[1]));
-logger.info(chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`) + 
-chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`) + 
-chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`) + 
-chalk.rgb(255, 107, 107)(`-`) + 
-chalk.rgb(255, 165, 107)(`-`) + 
-chalk.rgb(255, 231, 107)(`-`) + 
-chalk.rgb(107, 255, 150)(`-`) + 
-chalk.rgb(107, 200, 255)(`-`) + 
-chalk.rgb(180, 107, 255)(`-`) + 
-chalk.rgb(255, 107, 200)(`-`));
+logger.info(
+  chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`) +
+    chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`) +
+    chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`) +
+    chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`),
+);
+logger.info(
+  chalk.rgb(255, 107, 107)(PluginName_zh[0]) +
+    chalk.rgb(255, 165, 107)(PluginName_zh[1]) +
+    chalk.rgb(255, 231, 107)(PluginName_zh[2]) +
+    chalk.rgb(107, 255, 150)(PluginName_zh[3]) +
+    chalk.rgb(107, 200, 255)(`载`) +
+    chalk.rgb(180, 107, 255)(`入`) +
+    chalk.rgb(255, 107, 200)(`完`) +
+    chalk.rgb(255, 107, 107)(`成`),
+);
+logger.info(
+  chalk.rgb(255, 107, 107)(`成`) +
+    chalk.rgb(255, 165, 107)(`功`) +
+    chalk.rgb(255, 231, 107)(`加`) +
+    chalk.rgb(107, 255, 150)(`载`) +
+    chalk.rgb(107, 200, 255)(`：`) +
+    chalk.rgb(180, 107, 255)(` `) +
+    chalk.rgb(255, 107, 200)(successCount) +
+    chalk.rgb(255, 107, 107)(` `) +
+    chalk.rgb(255, 165, 107)(`个`),
+);
+logger.info(
+  chalk.rgb(255, 107, 107)(`加`) +
+    chalk.rgb(255, 165, 107)(`载`) +
+    chalk.rgb(255, 231, 107)(`失`) +
+    chalk.rgb(107, 255, 150)(`败`) +
+    chalk.rgb(107, 200, 255)(`：`) +
+    chalk.rgb(180, 107, 255)(` `) +
+    chalk.rgb(255, 107, 200)(failureCount) +
+    chalk.rgb(255, 107, 107)(` `) +
+    chalk.rgb(255, 165, 107)(`个`),
+);
+logger.info(
+  chalk.rgb(255, 107, 107)(`总`) +
+    chalk.rgb(255, 165, 107)(`耗`) +
+    chalk.rgb(255, 231, 107)(`时`) +
+    chalk.rgb(107, 255, 150)(`：`) +
+    chalk.rgb(107, 200, 255)(` `) +
+    chalk.rgb(180, 107, 255)(elapsedTime) +
+    chalk.rgb(255, 107, 200)(` `) +
+    chalk.rgb(255, 107, 107)(`毫`) +
+    chalk.rgb(255, 165, 107)(`秒`),
+);
+logger.info(
+  chalk.rgb(255, 107, 107)(`C`) +
+    chalk.rgb(255, 165, 107)(`r`) +
+    chalk.rgb(255, 231, 107)(`e`) +
+    chalk.rgb(107, 255, 150)(`a`) +
+    chalk.rgb(107, 200, 255)(`t`) +
+    chalk.rgb(180, 107, 255)(`e`) +
+    chalk.rgb(255, 107, 200)(`d`) +
+    chalk.rgb(255, 107, 107)(` `) +
+    chalk.rgb(255, 165, 107)(`B`) +
+    chalk.rgb(255, 231, 107)(`y`) +
+    chalk.rgb(107, 255, 150)(` `) +
+    chalk.rgb(255, 107, 107)(global.XINGLUO.PluginAuthor[0]) +
+    chalk.rgb(255, 165, 107)(global.XINGLUO.PluginAuthor[1]),
+);
+logger.info(
+  chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`) +
+    chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`) +
+    chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`) +
+    chalk.rgb(255, 107, 107)(`-`) +
+    chalk.rgb(255, 165, 107)(`-`) +
+    chalk.rgb(255, 231, 107)(`-`) +
+    chalk.rgb(107, 255, 150)(`-`) +
+    chalk.rgb(107, 200, 255)(`-`) +
+    chalk.rgb(180, 107, 255)(`-`) +
+    chalk.rgb(255, 107, 200)(`-`),
+);
 
 export { apps };
