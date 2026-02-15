@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="../../../plugins/xingluo-plugin/resources/html/hot.css" />
+    <link rel="stylesheet" type="text/css" href="{{Path}}html/hot.css" />
     <link rel="shortcut icon" href="#" />
 </head>
 {{@headStyle}}
@@ -17,7 +17,7 @@
       </div>-->
         <div class="data_box">
             <div class="tab_lable"><img class="icon" width="18" height="18"
-                    src="{{iconPath}}img/icon/{{icon}}.png" />{{val.title}}{{val.type}}</div>
+                    src="{{Path}}img/icon/{{icon}}.png" />{{val.title}}{{val.type}}</div>
             <div class="list">
                 {{each val.data.slice(0, 10) item index}}
                 <div class="item">
