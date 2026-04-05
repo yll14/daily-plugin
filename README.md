@@ -1,6 +1,7 @@
 <div align="center">
 
 # 热榜插件 V1.0(daily-plugin)
+> 学业原因，没有太多时间进行维护，如果有Bug请提[Issues](https://gitee.com/yll14/daily-plugin/issues/new/choose)我会在看到后第一时间尝试修复。
  </div>
 
 # 插件功能
@@ -45,24 +46,23 @@ pnpm i
 
 ## 其他
 
-- 由于插件性质 某些API可能会失效 若发现失效API 可联系作者或发起pr以更改失效api
+- 由于插件性质 API的某些部分可能会失效 若发现失效API 可联系作者或发起[Issues](https://gitee.com/yll14/daily-plugin/issues/new/choose)以更改失效api
 
-- 当然 为了功能稳定性 若是有新的api提供 也可联系作者或按照格式发起pr以更换API链接
 
-- 注意 如果您发起pr来更改API链接 您在进行pr之前须经本地测试以保证这是一个可供使用的api 若确认某api失效 发起pr后作者也会审查后才将其合并
-  <br/>
+- **_联系方式_**
+
 - 请注明来意及来源
   <br/>
 
-- QQ：`2443958507`[(高二小白)](https://qm.qq.com/cgi-bin/qm/qr?k=Vzr6Z6yISyfTNKic29xQEattdPxHldPW)
+- QQ：[`2443958507`(高二小白)](https://qm.qq.com/cgi-bin/qm/qr?k=Vzr6Z6yISyfTNKic29xQEattdPxHldPW)
 
 <br/>
 
 - **_邮箱联系方式_**
 
-- `ll@yll14.cn`
+- [`ll@yll14.cn`](mailto:ll@yll14.cn)
 
-- ` 2443958507@qq.com`
+- [`2443958507@qq.com`](mailto:2443958507@qq.com)
 
 如果可以的话 给本项目个star 来支持本项目 您的支持就是给我的最大的鼓励 谢谢
 
